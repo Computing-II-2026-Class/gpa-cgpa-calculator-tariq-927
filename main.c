@@ -23,8 +23,8 @@ int main()
     //validate input
     if (score < 0 || score > 100)
     {
-        printf("Invalid score for TEMB %d. Please enter a value between 0 and 100.\n", 1101 + i);
-        return 1; // Exit with error
+        printf("Invalid score entered");
+        return 0; // Exit with error
     }
     //Determine grade and grade points
     if (score >= 80) {
@@ -59,7 +59,7 @@ int main()
     //validate input
     if (score < 0 || score > 100)
     {
-        printf("Invalid score for TEMB%d. Please enter a value between 0 and 100.\n", 1201 + i);
+        printf("Invalid score entered");
         return 0; // Exit with error
     }
     //Determine grade and grade points
